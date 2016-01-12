@@ -1,0 +1,28 @@
+/* Select all columns and style them so we can see them */
+
+[class*="col-"]{
+  height:75px;
+  border:2px solid red;
+  border-radius:12px;
+}
+
+/* A handful of background colors for differentiating columns */
+
+.green{
+  background-color:green;
+}
+.red{
+  background-color:red;
+}
+.purple{
+  background-color:purple;
+}
+.orange{
+  background-color:orange;
+}
+.blue{
+  background-color:blue;
+}
+.yellow{
+  background-color:yellow;
+}
