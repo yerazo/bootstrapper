@@ -1,15 +1,20 @@
 /* Select all columns and style them so we can see them */
-
+body{
+	padding: 10px;
+}
 [class*="col-"]{
-  height:75px;
+  height:auto;
   border:2px solid red;
   border-radius:12px;
+  text-align: center;
+  line-height: 75px;
 }
 
 /* A handful of background colors for differentiating columns */
 
 .green{
   background-color:green;
+  padding: 8px 0;
 }
 .red{
   background-color:red;
