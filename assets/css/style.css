@@ -3,7 +3,6 @@ body{
 	padding: 10px;
 }
 [class*="col-"]{
-  height:auto;
   border:2px solid red;
   border-radius:12px;
   text-align: center;
